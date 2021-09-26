@@ -22,7 +22,7 @@ moderatorids = {
         1811939652, -- booster Juan <3#6969
         1308608157, -- bosster unaverage#8006
         377447260, -- booster Star.#6874
-        2509476084, -- buyer GoldenCheats#4922
+        1938502716, -- buyer GoldenCheats#4922
         2360917150, -- buyer robyx $Wrath#1979
         2295833140, -- booster token#1234
         1432929188, -- killbill#7258 robux
