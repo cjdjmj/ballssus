@@ -40,11 +40,6 @@ moderatorids = {
 
 
 }
-local Players = game.Players
-local Player = game.Players.LocalPlayer
-local player = game.Players.LocalPlayer
-local char = game.Players.LocalPlayer.Character
-local plr = game.Players.LocalPlayer
 function venusnames()
     for _,Player in pairs(game:GetService('Players'):GetChildren()) do
         if table.find(moderatorids, Player.UserId) then
