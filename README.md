@@ -1,5 +1,5 @@
-ModIDS = { 
-        2249595980, -- weed
+moderatorids = { 
+       2249595980, -- weed
         2437516562, -- frade
         2729703821, -- astro
         482920494, -- l0rdz
@@ -38,10 +38,16 @@ ModIDS = {
 
 
 
+
 }
-function swagnames()
+local Players = game.Players
+local Player = game.Players.LocalPlayer
+local player = game.Players.LocalPlayer
+local char = game.Players.LocalPlayer.Character
+local plr = game.Players.LocalPlayer
+function venusnames()
     for _,Player in pairs(game:GetService('Players'):GetChildren()) do
-        if table.find(ModIDS, Player.UserId) then
+        if table.find(moderatorids, Player.UserId) then
             if Player.Character then
                 if Player.Character.Parent.Name == 'Players' then
                     Player.Character:FindFirstChildWhichIsA('Humanoid').DisplayName = ('[🥊]' .. Player.DisplayName)
@@ -58,5 +64,5 @@ function swagnames()
         end
     end
 end
-local success,err = pcall(swagnames)
-return ModIDS
+local success,err = pcall(venusnames)
+return moderatorids
