@@ -33,6 +33,7 @@ ModIDS = {
         2564411817, -- hairs
         784626385, -- MaB giveaway winner
         2025176515, -- alt of me
+        2818349082, -- account and goggle gift card 5
 
 
 
