@@ -1,4 +1,4 @@
-moderatorids = { 
+ModIDS = { 
         2249595980, -- weed
         2437516562, -- frade
         2729703821, -- astro
@@ -22,7 +22,7 @@ moderatorids = {
         1811939652, -- booster Juan <3#6969
         1308608157, -- bosster unaverage#8006
         377447260, -- booster Star.#6874
-        1938502716, -- buyer GoldenCheats#4922
+        2509476084, -- buyer GoldenCheats#4922
         2360917150, -- buyer robyx $Wrath#1979
         2295833140, -- booster token#1234
         1432929188, -- killbill#7258 robux
@@ -37,12 +37,10 @@ moderatorids = {
 
 
 
-
-
 }
-function venusnames()
+function swagnames()
     for _,Player in pairs(game:GetService('Players'):GetChildren()) do
-        if table.find(moderatorids, Player.UserId) then
+        if table.find(ModIDS, Player.UserId) then
             if Player.Character then
                 if Player.Character.Parent.Name == 'Players' then
                     Player.Character:FindFirstChildWhichIsA('Humanoid').DisplayName = ('[🥊]' .. Player.DisplayName)
@@ -59,5 +57,5 @@ function venusnames()
         end
     end
 end
-local success,err = pcall(venusnames)
-return moderatorids
+local success,err = pcall(swagnames)
+return ModIDS
